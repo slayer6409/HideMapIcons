@@ -1,9 +1,0 @@
-{
- "name": "StableFlashlight",
- "version_number": "1.0.0",
- "website_url": "https://github.com/linkoid/Repo.StableFlashlight",
- "description": "Stabilizes the flashlight to prevent motion sickness",
- "dependencies": [
-  "BepInEx-BepInExPack-5.4.2100"
- ]
-}
