@@ -28,8 +28,8 @@
       <HintPath>..\..\..\AppData\Roaming\com.kesomannen.gale\repo\profiles\Default\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
   </ItemGroup>
-	<Target Name="PostBuildZip" AfterTargets="CopyFilesToPluginOutputDirectory">
-		<Exec Command="cd C:\Users\andre\Desktop\MysteryDice &amp; call &quot;Make Zip7.bat&quot;" />
+	<Target Name="CopyToModFolder" AfterTargets="Build">
+		<Copy SourceFiles="$(TargetPath)" DestinationFolder="C:\Users\andre\Desktop\MysteryDice\Hide Map Icons\" SkipUnchangedFiles="true" />
 	</Target>
 
 </Project>
